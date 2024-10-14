@@ -1,8 +1,16 @@
 import React from 'react';
 import Slider from 'react-slick';
 
-export default function Brands({ data }) {
-  var settings = {
+const brandData = [
+  { src: 'https://i.postimg.cc/WbMhKDGt/4.png', alt: 'Brand 1' },
+  { src: 'https://i.postimg.cc/FHj7ZYwM/1.png', alt: 'Brand 2' },
+  { src: 'https://i.postimg.cc/vZhDYpSs/5.png', alt: 'Brand 3' },
+  { src: 'https://i.postimg.cc/8Cn5WLSX/Add-a-heading-4.png', alt: 'Brand 4' },
+  { src: 'https://i.postimg.cc/QxLF0gWR/3.png', alt: 'Brand 5' },
+];
+
+export default function Brands() {
+  const settings = {
     dots: false,
     arrows: false,
     infinite: true,
@@ -39,6 +47,7 @@ export default function Brands({ data }) {
       },
     ],
   };
+
   return (
     <div className="py-3 py-md-4 brand-section gray-bg">
       <div
@@ -48,7 +57,7 @@ export default function Brands({ data }) {
         data-aos-delay="500"
       >
         <Slider {...settings} className="slider-gap-50">
-          {data.map((item, index) => (
+          {brandData.map((item, index) => (
             <div key={index}>
               <div className="pt-3 pb-3 text-center d-flex align-items-center justify-content-center w-100">
                 <img src={item.src} alt={item.alt} className="w-100" />

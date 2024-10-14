@@ -1,10 +1,10 @@
 {
   "hero": {
     "imgUrl": "/images/home-banner.png",
-    "name": "Jenna Ortega",
-    "heading": "Hay! I’m Jenna",
-    "typingText": ["I'm a Designer", 1500, "I'm a Developer", 1500],
-    "description": "Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment.",
+    "name": "Portfolio",
+    "heading": "Khamare Clarke",
+    "typingText": ["Web/App Developer", 1500, "Ads Specialised", 1500],
+    "description": "I’m a skilled Web and App developer, dedicated to building fast, reliable digital solutions that make an impact. With a focus on SEO, paid ads and smart strategies, I help businesses boost their online presence and attract more customers through targeted traffic and cutting-edge technology.",
     "btnText": "Get in touch",
     "btnUrl": "contactus"
   },
@@ -57,212 +57,226 @@
   ],
   "about": {
     "imgSrc": "/images/about-banner.png",
-    "miniTitle": "About Us",
-    "title": "I AM AVAILABLE FOR <span>UI UX DESIGN</span> PROJECTS",
-    "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+    "miniTitle": "About Me",
+    "title": "EXPERT IN <span>WEB & APP DEVELOPMENT</span> WITH SEO AND PAID ADS SPECIALISATION",
+    "description":"With over 15 years of experience, I specialise in creating high-performance web and app solutions designed to elevate your online presence. From developing robust websites and custom, apps to implementing effective SEO strategies and targeted paid ads, I provide comprehensive digital solutions to help you achieve your business goals and drive measurable results.",
     "funfacts": [
       {
-        "title": "Google Review",
+        "title": "Successful Digital Campaign",
         "number": 280
       },
       {
-        "title": "Years Experience",
-        "number": 15
+        "title": "Average ROI Increase",
+        "number": "150%"
       },
       {
-        "title": "Awward Winning",
-        "number": 49
+        "title": "Revenue Generated for Client",
+        "number": "£100000"
       }
     ],
     "btnText": "Get in touch",
     "btnUrl": "contactus"
   },
-  "projects": {
-    "sectionHeading": {
-      "miniTitle": "My Work",
-      "title": "RECENT PROJECT"
-    },
-    "allProjects": [
-      {
-        "thumbUrl": "/images/popup-project-1.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
-        "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
-        }
-      },
-      {
-        "thumbUrl": "/images/popup-project-2.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
-        "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
-        }
-      },
-      {
-        "thumbUrl": "/images/popup-project-3.jpg",
-        "title": "Dashboard Design",
-        "subTitle": "Web Design, App Design",
-        "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
-        }
-      },
-      {
-        "thumbUrl": "/images/popup-project-4.jpg",
-        "title": "Mobile App Design",
-        "subTitle": "Web Design, App Design",
-        "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
-        }
-      },
-      {
-        "thumbUrl": "/images/popup-project-5.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
-        "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
-        }
-      },
-      {
-        "thumbUrl": "/images/popup-project-6.jpg",
-        "title": "Website Design",
-        "subTitle": "Web Design, App Design",
-        "details": {
-          "title": "Website Design for Marketing Agency Startup",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "WordPress",
-          "country": "USA",
-          "url": "www.example.com"
-        }
-      }
-    ]
+ "projects": {
+  "sectionHeading": {
+    "miniTitle": "My Work",
+    "title": "RECENT PROJECTS"
   },
-  "service": {
-    "sectionHeading": {
-      "miniTitle": "SERVICES",
-      "title": "Design <span>services</span> I am providing"
-    },
-    "allService": [
-      {
-        "imgUrl": "/images/service-01.jpg",
-        "title": "Website Design",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
-        "icon": "bi:brush-fill",
-        "ratings": 5
-      },
-      {
-        "imgUrl": "/images/service-02.jpg",
-        "title": "Website Design",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
-        "icon": "bi:code-square",
-        "ratings": 4.5
-      },
-      {
-        "imgUrl": "/images/service-03.jpg",
-        "title": "SEO Marketing",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
-        "icon": "bi:speedometer2",
-        "ratings": 5
-      },
-      {
-        "imgUrl": "/images/service-04.jpg",
-        "title": "Graphic Design",
-        "subTitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
-        "icon": "bi:palette",
-        "ratings": 5
+  "allProjects": [
+    {
+      "thumbUrl": "/images/popup-project-1.jpg",
+      "title": "E-commerce Website Development",
+      "subTitle": "Web Design, App Design",
+      "details": {
+        "title": "High-Impact E-commerce Site for Startup",
+        "description": "Crafted a sleek, high-performance e-commerce website using HTML, CSS, and React JS. Implemented advanced SEO techniques and integrated Google Ads to drive targeted traffic and boost sales.",
+        "type": "Website",
+        "langages": "HTML, CSS, JS, React JS, Node.js",
+        "platform": "Custom Development",
+        "country": "UK",
+        "url": "www.example.com"
       }
+    },
+    {
+      "thumbUrl": "/images/popup-project-2.jpg",
+      "title": "Mobile App Interface Design",
+      "subTitle": "App Design, UX/UI Design",
+      "details": {
+        "title": "User-Friendly Mobile App for Fitness",
+        "description": "Designed an intuitive mobile app interface with Bootstrap and React JS. Focused on seamless UX/UI to enhance user engagement and retention.",
+        "type": "Mobile App",
+        "langages": "HTML, CSS, JS, React JS",
+        "platform": "Custom Development",
+        "country": "UK",
+        "url": "www.example.com"
+      }
+    },
+    {
+      "thumbUrl": "/images/popup-project-3.jpg",
+      "title": "Interactive Dashboard Design",
+      "subTitle": "Web Design, Data Visualization",
+      "details": {
+        "title": "Real-Time Dashboard for Analytics",
+        "description": "Developed a dynamic dashboard using React JS and Node.js for real-time data visualization. Optimized with advanced SEO and targeted ads for improved performance and visibility.",
+        "type": "Dashboard",
+        "langages": "HTML, CSS, JS, React JS, Node.js",
+        "platform": "Custom Development",
+        "country": "UK",
+        "url": "www.example.com"
+      }
+    },
+    {
+      "thumbUrl": "/images/popup-project-4.jpg",
+      "title": "Marketing Campaign Website",
+      "subTitle": "Web Design, Paid Ads Integration",
+      "details": {
+        "title": "Website for Integrated Marketing Campaign",
+        "description": "Developed a visually compelling website for a marketing campaign, incorporating SEO best practices and integrating with Google Ads, Meta Ads, TikTok Ads, and Snapchat Ads to maximize reach.",
+        "type": "Website",
+        "langages": "HTML, CSS, JS, React JS, Node.js",
+        "platform": "Custom Development",
+        "country": "UK",
+        "url": "www.example.com"
+      }
+    },
+    {
+      "thumbUrl": "/images/popup-project-5.jpg",
+      "title": "Business Automation Tool",
+      "subTitle": "Automations, CRM Integration",
+      "details": {
+        "title": "Comprehensive CRM Automation System",
+        "description": "Created a robust automation package for small businesses, integrating CRM systems and utilizing Go High Level to streamline operations and enhance productivity.",
+        "type": "Automation",
+        "langages": "HTML, CSS, JS, React JS, Node.js",
+        "platform": "Custom Development",
+        "country": "UK",
+        "url": "www.example.com"
+      }
+    },
+    {
+      "thumbUrl": "/images/popup-project-6.jpg",
+      "title": "Custom Web Application",
+      "subTitle": "Web Development, Custom Solutions",
+      "details": {
+        "title": "Tailored Web Application for Client Management",
+        "description": "Designed and developed a custom web application to manage client interactions, employing advanced SEO strategies and integrating various ad platforms to enhance visibility and engagement.",
+        "type": "Web Application",
+        "langages": "HTML, CSS, JS, React JS, Node.js",
+        "platform": "Custom Development",
+        "country": "UK",
+        "url": "www.example.com"
+      }
+    },
+    {
+      "thumbUrl": "/images/popup-project-7.jpg",
+      "title": "E-commerce Website Development",
+      "subTitle": "Web Design, App Design",
+      "details": {
+        "title": "High-Impact E-commerce Site for Startup",
+        "description": "Crafted a sleek, high-performance e-commerce website using HTML, CSS, and React JS. Implemented advanced SEO techniques and integrated Google Ads to drive targeted traffic and boost sales.",
+        "type": "Website",
+        "langages": "HTML, CSS, JS, React JS, Node.js",
+        "platform": "Custom Development",
+        "country": "UK",
+        "url": "www.example.com"
+      }
+    }
+  ]
+},
+ "service": {
+  "sectionHeading": {
+    "miniTitle": "SERVICES",
+    "title": "Comprehensive <span>Services</span> I Offer"
+  },
+  "allService": [
+    {
+      "imgUrl": "/images/service-01.jpg",
+      "title": "Web & App Development",
+      "subTitle": "Crafting high-performance websites and custom applications tailored to your needs.",
+      "icon": "bi:code-square",
+      "ratings": 5
+    },
+    {
+      "imgUrl": "/images/service-02.jpg",
+      "title": "SEO Optimization",
+      "subTitle": "Boosting your online visibility with effective SEO strategies to drive organic traffic.",
+      "icon": "bi:search",
+      "ratings": 5
+    },
+    {
+      "imgUrl": "/images/service-03.jpg",
+      "title": "Paid Advertising",
+      "subTitle": "Maximising with targeted paid ads campaigns and drive high-quality traffic.",
+      "icon": "bi:megaphone",
+      "ratings": 5
+    },
+    {
+      "imgUrl": "/images/service-04.jpg",
+      "title": "Business Automation",
+      "subTitle": "Streamlining your operations with tailored automation solutions to improve efficiency.",
+      "icon": "bi:gear",
+      "ratings": 5
+    }
     ]
   },
   "experience": {
-    "sectionHeading": {
-      "miniTitle": "Experience",
-      "title": "My Work <span>Experience</span>"
-    },
-    "allExperience": [
-      {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
-        "jobType": "Full time",
-        "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
-      },
-      {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
-        "jobType": "Full time",
-        "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
-      },
-      {
-        "designation": "Front-end Developer",
-        "company": "WELAB | REMOTE",
-        "duration": "JAN 2019 - PRESENT",
-        "jobType": "Full time",
-        "companyTitle": "About Company",
-        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ."
-      }
-    ]
+  "sectionHeading": {
+    "miniTitle": "Experience",
+    "title": "My Work <span>Experience</span>"
   },
-  "testimonial": {
-    "sectionHeading": {
-      "miniTitle": "Testimonial",
-      "title": "Over <span>8,000+</span> <br /> PEOPLE TRUST ME"
+  "allExperience": [
+    {
+      "designation": "Front-end Developer",
+      "company": "WELAB | REMOTE",
+      "duration": "JAN 2019 - PRESENT",
+      "jobType": "Full time",
+      "companyTitle": "About WELAB",
+      "companyDescription": "WELAB is a cutting-edge digital agency specializing in innovative web and app solutions. Our team focuses on delivering high-quality products and services that empower businesses to thrive in the digital landscape."
     },
-    "allTestimonial": [
-      {
-        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "/images/avatar-1.jpg",
-        "avatarName": "Pamela Anders",
-        "avatarCompany": "Company Name"
-      },
-      {
-        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "/images/avatar-2.jpg",
-        "avatarName": "Pamela Anders",
-        "avatarCompany": "Company Name"
-      },
-      {
-        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
-        "avatarImg": "/images/avatar-3.jpg",
-        "avatarName": "Pamela Anders",
-        "avatarCompany": "Company Name"
-      }
-    ]
+    {
+      "designation": "Web Developer",
+      "company": "XYZ Solutions | REMOTE",
+      "duration": "MAR 2016 - DEC 2018",
+      "jobType": "Full time",
+      "companyTitle": "About XYZ Solutions",
+      "companyDescription": "XYZ Solutions is a leading provider of web development services, dedicated to creating customized solutions that drive results. We leverage the latest technologies to enhance user experience and optimize business performance."
+    },
+    {
+      "designation": "Junior Web Developer",
+      "company": "ABC Tech | REMOTE",
+      "duration": "JUN 2014 - FEB 2016",
+      "jobType": "Full time",
+      "companyTitle": "About ABC Tech",
+      "companyDescription": "ABC Tech is a dynamic startup focused on innovative web applications and services. Our mission is to provide businesses with the tools they need to succeed online, utilizing modern frameworks and best practices."
+    }
+  ]
+},
+"testimonial": {
+  "sectionHeading": {
+    "miniTitle": "Testimonials",
+    "title": "Over <span>8,000+</span> <br />Satisfied Clients Trust Me"
   },
+  "allTestimonial": [
+    {
+      "reviewText": "Working with [Your Name] transformed our digital presence. Their expertise in web development and SEO helped us reach new heights in visibility and customer engagement. Highly recommended!",
+      "avatarImg": "/images/avatar-1.jpg",
+      "avatarName": "Pamela Anders",
+      "avatarCompany": "CEO, Marketing Agency"
+    },
+    {
+      "reviewText": "I was impressed by the seamless integration of paid ads with our web strategy. [Your Name] not only delivered a stunning website but also increased our ROI significantly.",
+      "avatarImg": "/images/avatar-2.jpg",
+      "avatarName": "John Smith",
+      "avatarCompany": "Founder, E-commerce Startup"
+    },
+    {
+      "reviewText": "The automation package [Your Name] developed for us streamlined our operations and saved us countless hours. Their attention to detail and commitment to our success made all the difference.",
+      "avatarImg": "/images/avatar-3.jpg",
+      "avatarName": "Lisa Brown",
+      "avatarCompany": "COO, Small Business Solutions"
+    }
+  ]
+},
   "contact": {
     "sectionHeading": {
       "title": "Let’s Discuss Your Project",
@@ -270,8 +284,8 @@
     },
     "contactImg": "/images/contact-us.png",
     "contactInfo": [
-      { "title": "Write an e-mail", "email": "sample@domain.com" },
-      { "title": "write an e-mail", "tel": "+044 9696 9696 3636" }
+      { "title": "Write an e-mail", "email": "info@khamareclarke.com" },
+      { "title": "Direct Contact Number", "tel": "+44 7473 255 886" }
     ]
   }
 }

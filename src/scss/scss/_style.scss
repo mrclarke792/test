@@ -10,11 +10,12 @@ body {
   overflow-x: hidden;
   background: linear-gradient(
     90deg,
-    #07233b 1.67%,
-    #041d34 39.95%,
-    #04192d 58.24%,
-    #040e18 80.28%,
-    #050c16 101.48%
+    #111111 0%,   /* Darkest on the edges */
+    #1a1a1a 20%,  
+    #4d4d4d 50%,  /* Lightest in the middle */
+    #333333 70%,  
+    #262626 80%,  
+    #111111 100%  /* Darkest on the other edge */
   );
 }
 
@@ -108,8 +109,8 @@ a {
     margin: auto;
     width: 35px;
     height: 35px;
-    background: var(--px-theme);
-    color: var(--px-theme-text);
+    background: #B8860B;
+    color: #B8860B;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -118,7 +119,7 @@ a {
     transition: ease all 0.35s;
 
     &:hover {
-      background: var(--px-theme-text);
+      background:#B8860B ;
       color: var(--px-theme);
     }
   }
@@ -159,7 +160,7 @@ a {
     h6 {
       margin: 0 0 10px;
       span {
-        background: rgba(var(--px-theme-rgb), 0.2);
+        background:  #DAA520;
         border-radius: 4px;
         padding: 5px 12px;
         display: inline-block;
@@ -186,7 +187,7 @@ a {
     h2 {
       color: var(--px-theme);
       font-weight: 700;
-      font-size: 70px;
+      font-size: 60px;
       text-transform: uppercase;
       margin: 0 0 30px;
       @include down-lg {
@@ -259,7 +260,7 @@ a {
     padding-top: 15px;
     padding-bottom: 45px;
     .r-box {
-      background: rgba(255, 255, 255, 0.05);
+      background: #4d4d4d;
       border: 1px solid rgba(255, 255, 255, 0.15);
       display: flex;
       flex-direction: column;
@@ -394,7 +395,7 @@ a {
   border-radius: 8px;
   &:after {
     content: '';
-    background: linear-gradient(180deg, rgba(4, 12, 22, 0) 0%, #040c16 100%);
+    background: linear-gradient(180deg, rgba(197, 16, 16, 0) 0%, #111111 100%);
     position: absolute;
     top: 0;
     left: 0;
@@ -456,7 +457,7 @@ a {
 *   EXPERIENCE
 ---------------------------*/
 .ex-box {
-  background: rgba(var(--px-theme-rgb), 0.1);
+  background: #4d4d4d  ;
   padding: 25px;
   border-radius: 10px;
   .ex-left {
@@ -622,7 +623,7 @@ a {
       box-shadow: none;
       padding: 0.575rem 0.75rem;
       &::-webkit-input-placeholder {
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(187, 12, 12, 0.5);
       }
       &:-moz-placeholder {
         color: rgba(255, 255, 255, 0.5);
@@ -647,7 +648,7 @@ a {
 
   .contactus-form {
     border-top: 1px solid rgba(var(--px-theme-rgb), 0.2);
-    background: rgba(var(--px-theme-rgb), 0.1);
+    background:#4d4d4d;
   }
 }
 
@@ -765,7 +766,7 @@ a {
 .cs-cursor_sm {
   width: 10px;
   height: 10px;
-  background-color: #fff;
+  background-color: #B8860B;
   left: 15px;
   top: 15px;
   pointer-events: none;
