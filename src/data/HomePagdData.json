@@ -222,37 +222,37 @@
     ]
   },
   "experience": {
-  "sectionHeading": {
-    "miniTitle": "Experience",
-    "title": "My Work <span>Experience</span>"
+    "sectionHeading": {
+      "miniTitle": "Experience",
+      "title": "My Work <span>Experience</span>"
+    },
+    "allExperience": [
+      {
+        "designation": "Full Stack Developer | Ads Specialist",
+        "company": "Omni Digital Solutions | REMOTE",
+        "duration": "JAN 2024 - PRESENT",
+        "jobType": "Full time",
+        "companyTitle": "About Omni Digital Solutions",
+        "companyDescription": "Omni Digital Solutions is a cutting-edge digital agency specializing in innovative web and app solutions. Our dedicated team focuses on delivering high-quality products and services that empower businesses to thrive in the digital landscape through strategic growth and exceptional user experiences."
+      },
+      {
+        "designation": "Web Developer",
+        "company": "SEO Clinic Solutions | REMOTE",
+        "duration": "MAR 2016 - DEC 2023",
+        "jobType": "Full time",
+        "companyTitle": "About SEO Clinic Solutions",
+        "companyDescription": "SEO Clinic Solutions is a leading web development agency dedicated to crafting customized digital experiences. We harness the latest technologies and industry best practices to enhance user engagement and optimize business performance, driving measurable results for our clients."
+      },
+      {
+        "designation": "Junior Web Developer",
+        "company": "Treq-Prim Tech | REMOTE",
+        "duration": "JUN 2014 - FEB 2016",
+        "jobType": "Full time",
+        "companyTitle": "About Treq-Prim Tech",
+        "companyDescription": "Treq-Prim Tech is an innovative startup focused on developing impactful web applications and services. Our mission is to empower businesses with modern technological solutions, utilizing cutting-edge frameworks and best practices to ensure success in the digital marketplace."
+      }
+    ]
   },
-  "allExperience": [
-    {
-      "designation": "Front-end Developer",
-      "company": "WELAB | REMOTE",
-      "duration": "JAN 2019 - PRESENT",
-      "jobType": "Full time",
-      "companyTitle": "About WELAB",
-      "companyDescription": "WELAB is a cutting-edge digital agency specializing in innovative web and app solutions. Our team focuses on delivering high-quality products and services that empower businesses to thrive in the digital landscape."
-    },
-    {
-      "designation": "Web Developer",
-      "company": "XYZ Solutions | REMOTE",
-      "duration": "MAR 2016 - DEC 2018",
-      "jobType": "Full time",
-      "companyTitle": "About XYZ Solutions",
-      "companyDescription": "XYZ Solutions is a leading provider of web development services, dedicated to creating customized solutions that drive results. We leverage the latest technologies to enhance user experience and optimize business performance."
-    },
-    {
-      "designation": "Junior Web Developer",
-      "company": "ABC Tech | REMOTE",
-      "duration": "JUN 2014 - FEB 2016",
-      "jobType": "Full time",
-      "companyTitle": "About ABC Tech",
-      "companyDescription": "ABC Tech is a dynamic startup focused on innovative web applications and services. Our mission is to provide businesses with the tools they need to succeed online, utilizing modern frameworks and best practices."
-    }
-  ]
-},
 "testimonial": {
   "sectionHeading": {
     "miniTitle": "Testimonials",
