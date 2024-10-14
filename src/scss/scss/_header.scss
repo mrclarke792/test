@@ -3,7 +3,7 @@
   color: var(--px-white);
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
   border-radius: 5px;
-  padding: 0 25px;
+  padding: 5 25px;
   height: 40px;
   line-height: 1;
   position: relative;
@@ -43,13 +43,13 @@
     align-items: center;
     justify-content: space-between;
 
-    @include down-md {
+    @include down-xs {
       max-width: 100%;
     }
   }
 
   .logo-light {
-    width: 120px;  /* Adjust width as needed */
+    width: 80px;  /* Adjust width as needed */
     height: auto;  /* Maintain aspect ratio */
   }
 
@@ -75,7 +75,7 @@
     > li {
       padding: 0 20px;
 
-      @include down-md {
+      @include down-xs {
         padding: 8px 0;
       }
 

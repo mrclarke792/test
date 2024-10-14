@@ -148,75 +148,111 @@ a {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  padding-top: 150px;
+  padding-top: 150px; // Default padding for larger screens
+
+  // Adjust padding for medium devices and below
   @include down-md {
-    padding-top: 130px;
+    padding-top: 130px; // Padding for devices <= 576px
+  }
+
+  // Styles for extra-small devices
+  @include down-xs {
+    padding-top: 110px; // Further adjustment for XS devices
   }
 
   .hs-text-box {
     @include down-md {
-      padding-bottom: 50px;
+      padding-bottom: 50px; // Adjust for medium devices
     }
+
+    // Extra-small device adjustments
+    @include down-xs {
+      padding-bottom: 30px; // Adjust for XS devices
+    }
+
     h6 {
       margin: 0 0 10px;
+
       span {
-        background:  #DAA520;
+        background: #DAA520;
         border-radius: 4px;
         padding: 5px 12px;
         display: inline-block;
         color: var(--px-white);
         font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 4px;
+        font-size: 14px; // Smaller font size for XS
+        line-height: 18px; // Adjust line height
+        letter-spacing: 3px; // Adjust letter spacing
         text-transform: uppercase;
       }
     }
+
     h1 {
       color: var(--px-white);
       font-weight: 700;
-      font-size: 70px;
-      text-transform: uppercase;
+      font-size: 60px; // Default font size for larger screens
+
       @include down-lg {
-        font-size: 45px;
+        font-size: 45px; // Size for large screens
       }
+
       @include down-sm {
-        font-size: 38px;
+        font-size: 38px; // Size for small screens
+      }
+
+      @include down-xs {
+        font-size: 30px; // Smaller font size for XS
       }
     }
+
     h2 {
       color: var(--px-theme);
       font-weight: 700;
-      font-size: 60px;
-      text-transform: uppercase;
+      font-size: 50px; // Default font size for larger screens
       margin: 0 0 30px;
+
       @include down-lg {
-        font-size: 45px;
+        font-size: 40px; // Size for large screens
         margin: 0 0 20px;
       }
+
       @include down-sm {
-        font-size: 38px;
-        margin: 0 0 10px;
+        font-size: 35px; // Size for small screens
+        margin: 0 0 15px;
+      }
+
+      @include down-xs {
+        font-size: 28px; // Smaller font size for XS
+        margin: 0 0 10px; // Adjust margin for XS
       }
     }
+
     .text {
       font-weight: 400;
-      font-size: 20px;
+      font-size: 18px; // Default font size for larger screens
       line-height: 150%;
       letter-spacing: 0.01em;
       color: var(--px-white);
+
       @include down-lg {
-        font-size: 18px;
+        font-size: 16px; // Size for large screens
       }
+
       @include down-sm {
-        font-size: 16px;
+        font-size: 14px; // Size for small screens
+      }
+
+      @include down-xs {
+        font-size: 12px; // Smaller font size for XS
       }
     }
+
     .btn-bar {
       padding-top: 15px;
     }
   }
 }
+
 
 /* ----------------------
 *   About
@@ -378,7 +414,54 @@ a {
     }
   }
 }
+// Media Query for Devices 393px and Smaller
+@media (max-width: 393px) {
+  .project-box {
+    padding: 10px; // Reduce padding for small screens
 
+    .project-media {
+      img {
+        transition: ease all 0.25s; // Slightly faster transition
+        transform: scale(1);
+      }
+
+      .gallery-link {
+        i {
+          width: 40px; // Adjust icon size
+          height: 40px;
+          font-size: 28px; // Adjust font size for icon
+        }
+      }
+    }
+
+    .project-body {
+      padding-top: 15px; // Reduce top padding
+
+      h5 {
+        font-size: 18px; // Adjust font size for smaller screens
+      }
+
+      .text {
+        flex: 1; // Allow text to fill available space
+        padding-right: 5px; // Reduce padding for text
+
+        span {
+          font-size: 12px; // Adjust font size for span
+        }
+      }
+
+      .link {
+        width: 40px; // Reduce link width
+
+        .p-link {
+          width: 35px; // Adjust link size
+          height: 35px; // Adjust link height
+          font-size: 18px; // Adjust font size for link
+        }
+      }
+    }
+  }
+}
 /* ----------------------
 *   Services
 ---------------------------*/
@@ -741,7 +824,36 @@ a {
   opacity: 0.75;
   pointer-events: none;
 }
+// Media Query for Devices 393px and Smaller
+@media (max-width: 393px) {
+  .mfp-container {
+    padding: 10px; // Further reduce padding for very small screens
+  }
 
+  .mfp-content {
+    width: 90%; // Adjust width for small screens
+    margin: 0 auto; // Center the content
+  }
+
+  .mfp-wrap {
+    padding: 0; // Ensure no padding on the wrap
+  }
+
+  .slick-list {
+    margin-left: -8px; // Adjust margins for the slick list
+    margin-right: -8px;
+  }
+
+  .slick-track > * {
+    padding: 0 8px; // Adjust padding for slick track items
+  }
+  
+  .slick-slider {
+    .slick-track > * > * {
+      flex-direction: column; // Stack items vertically if needed
+    }
+  }
+}
 /* ----------------------
 *   Custom Curosor
 ---------------------------*/
