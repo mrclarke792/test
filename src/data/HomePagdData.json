@@ -14,7 +14,9 @@
       "iconBgClass": "facebook",
       "href": "/"
     },
-    { "icon": "fa-brands:dribbble", "iconBgClass": "dribbble", "href": "/" },
+    { "icon": "fa-brands:dribbble",
+     "iconBgClass": "dribbble", 
+     "href": "/" },
     {
       "icon": "fa-brands:linkedin-in",
       "iconBgClass": "linkedin",
@@ -77,112 +79,112 @@
     "btnText": "Get in touch",
     "btnUrl": "contactus"
   },
- "projects": {
-  "sectionHeading": {
-    "miniTitle": "My Work",
-    "title": "RECENT PROJECTS"
-  },
-  "allProjects": [
-    {
-      "thumbUrl": "/images/popup-project-1.jpg",
-      "title": "E-commerce Website Development",
-      "subTitle": "Web Design, App Design",
-      "details": {
-        "title": "High-Impact E-commerce Site for Startup",
-        "description": "Crafted a sleek, high-performance e-commerce website using HTML, CSS, and React JS. Implemented advanced SEO techniques and integrated Google Ads to drive targeted traffic and boost sales.",
-        "type": "Website",
-        "langages": "HTML, CSS, JS, React JS, Node.js",
-        "platform": "Custom Development",
-        "country": "UK",
-        "url": "www.example.com"
-      }
+    "projects": {
+      "sectionHeading": {
+        "miniTitle": "My Work",
+        "title": "RECENT PROJECTS"
+      },
+      "allProjects": [
+        {
+          "thumbUrl": "/images/popup-project-1.jpg",
+          "title": "MyApproved.co.uk",
+          "subTitle": "Web & Mobile App Development",
+          "details": {
+            "title": "High-Performance Web and Mobile App",
+            "description": "As the Senior Full Stack Developer for MyApproved, I built and deployed a scalable, high-performance web and mobile app using React and MongoDB. Key achievements include implementing secure user authentication, real-time notifications, and integrating Stripe for payments. I optimized the platform for SEO and speed with Next.js, and deployed it on Vercel with automated CI/CD pipelines, enhancing user engagement and boosting revenue.",
+            "type": "Web & Mobile Application",
+            "langages": "React, MongoDB, Next.js",
+            "platform": "Vercel",
+            "country": "UK",
+            "url": "http://www.myapproved.com"
+          }
+        },
+        {
+          "thumbUrl": "/images/popup-project-2.jpg",
+          "title": "UpgradeRoofs",
+          "subTitle": "Web Design, Ads Management",
+          "details": {
+            "title": "High-Performing WordPress Website",
+            "description": "As the Lead Manager for UpgradeRoofs, I developed a high-performing WordPress website and managed their ads campaigns. Key achievements include building a custom, responsive WordPress theme, optimizing the site for SEO and speed, and integrating lead generation tools. My targeted ads campaigns significantly increased conversions and drove quality traffic, boosting online visibility and customer engagement.",
+            "type": "Website",
+            "langages": "WordPress, PHP",
+            "platform": "WordPress",
+            "country": "UK",
+            "url": "http://www.upgraderoofs.co.uk"
+          }
+        },
+        {
+          "thumbUrl": "/images/popup-project-3.jpg",
+          "title": "Yenique Aesthetics",
+          "subTitle": "Web Design, Client Management",
+          "details": {
+            "title": "Responsive Aesthetic Services Website",
+            "description": "As the Senior Developer for Yenique Aesthetics, I built a responsive website using React.js, Node.js, and Bootstrap. Key features include a visually appealing design, detailed service integration, a user-friendly online booking system, and on-page SEO strategies, resulting in a high-performing platform that effectively promotes Yenqui Aesthetics.",
+            "type": "Website",
+            "langages": "React.js, Node.js, Bootstrap",
+            "platform": "Custom Development",
+            "country": "UK",
+            "url": "http://www.yeniqueaesthetics.com"
+          }
+        },
+        {
+          "thumbUrl": "/images/popup-project-4.jpg",
+          "title": "Surity Agency",
+          "subTitle": "Web Design, Paid Ads Integration",
+          "details": {
+            "title": "Integrated Marketing Campaign Website",
+            "description": "As the Senior Developer for Surity Agency, I built a responsive dental agency website using React.js, Next.js, and Bootstrap. Key achievements include implementing server-side rendering for fast load times, integrating interactive features for user engagement, and optimizing the site for SEO, resulting in an efficient, user-friendly platform that effectively promotes Surity Agency's dental services.",
+            "type": "Website",
+            "langages": "React.js, Next.js, Bootstrap",
+            "platform": "Custom Development",
+            "country": "UK",
+            "url": "http://www.surityagency.com"
+          }
+        },
+        {
+          "thumbUrl": "/images/popup-project-5.jpg",
+          "title": "Queens Beauty Clinic",
+          "subTitle": "Automations, CRM Integration",
+          "details": {
+            "title": "Comprehensive CRM Automation System",
+            "description": "As the Senior Developer for QueensBeautyClinic.co.uk, I created a custom Shopify site optimized for speed, SEO, and mobile responsiveness. Integrated booking forms boosted lead generation, and managed targeted ads campaigns increased traffic and client bookings, improving the clinic’s online presence and customer engagement.",
+            "type": "E-commerce Website",
+            "langages": "Shopify, Liquid, HTML, CSS",
+            "platform": "Shopify",
+            "country": "UK",
+            "url": "http://www.queensbeautyclinic.com"
+          }
+        },
+        {
+          "thumbUrl": "/images/popup-project-6.jpg",
+          "title": "Skin First Hair and Beauty",
+          "subTitle": "Web Development, Custom Solutions",
+          "details": {
+            "title": "Tailored Web Application for Client Management",
+            "description": "As the Senior Developer for Skin First Hair and Beauty, I built a modern, responsive website to showcase the salon's services. Key achievements include integrating an online booking system, optimizing site speed, and implementing SEO strategies to enhance visibility, resulting in an effective platform that improves customer engagement.",
+            "type": "Web Application",
+            "langages": "HTML, CSS, JS, React JS, Node.js",
+            "platform": "Custom Development",
+            "country": "UK",
+            "url": "http://www.skinfirsthairandbeauty.com"
+          }
+        },
+        {
+          "thumbUrl": "/images/popup-project-7.jpg",
+          "title": "Nelly's Logistics",
+          "subTitle": "Web Design, App Design",
+          "details": {
+            "title": "Responsive Courier Services Website",
+            "description": "As the Senior Developer for Nelly's Logistics, I created a responsive website using HTML, CSS, JavaScript, and PHP that streamlined the booking and management of courier services. Key features include an integrated online booking system, real-time package tracking, and optimized performance, enhancing customer satisfaction.",
+            "type": "Website",
+            "langages": "HTML, CSS, JavaScript, PHP",
+            "platform": "Custom Development",
+            "country": "UK",
+            "url": "http://www.nellyscourierservices.com"
+          }
+        }
+      ]
     },
-    {
-      "thumbUrl": "/images/popup-project-2.jpg",
-      "title": "Mobile App Interface Design",
-      "subTitle": "App Design, UX/UI Design",
-      "details": {
-        "title": "User-Friendly Mobile App for Fitness",
-        "description": "Designed an intuitive mobile app interface with Bootstrap and React JS. Focused on seamless UX/UI to enhance user engagement and retention.",
-        "type": "Mobile App",
-        "langages": "HTML, CSS, JS, React JS",
-        "platform": "Custom Development",
-        "country": "UK",
-        "url": "www.example.com"
-      }
-    },
-    {
-      "thumbUrl": "/images/popup-project-3.jpg",
-      "title": "Interactive Dashboard Design",
-      "subTitle": "Web Design, Data Visualization",
-      "details": {
-        "title": "Real-Time Dashboard for Analytics",
-        "description": "Developed a dynamic dashboard using React JS and Node.js for real-time data visualization. Optimized with advanced SEO and targeted ads for improved performance and visibility.",
-        "type": "Dashboard",
-        "langages": "HTML, CSS, JS, React JS, Node.js",
-        "platform": "Custom Development",
-        "country": "UK",
-        "url": "www.example.com"
-      }
-    },
-    {
-      "thumbUrl": "/images/popup-project-4.jpg",
-      "title": "Marketing Campaign Website",
-      "subTitle": "Web Design, Paid Ads Integration",
-      "details": {
-        "title": "Website for Integrated Marketing Campaign",
-        "description": "Developed a visually compelling website for a marketing campaign, incorporating SEO best practices and integrating with Google Ads, Meta Ads, TikTok Ads, and Snapchat Ads to maximize reach.",
-        "type": "Website",
-        "langages": "HTML, CSS, JS, React JS, Node.js",
-        "platform": "Custom Development",
-        "country": "UK",
-        "url": "www.example.com"
-      }
-    },
-    {
-      "thumbUrl": "/images/popup-project-5.jpg",
-      "title": "Business Automation Tool",
-      "subTitle": "Automations, CRM Integration",
-      "details": {
-        "title": "Comprehensive CRM Automation System",
-        "description": "Created a robust automation package for small businesses, integrating CRM systems and utilizing Go High Level to streamline operations and enhance productivity.",
-        "type": "Automation",
-        "langages": "HTML, CSS, JS, React JS, Node.js",
-        "platform": "Custom Development",
-        "country": "UK",
-        "url": "www.example.com"
-      }
-    },
-    {
-      "thumbUrl": "/images/popup-project-6.jpg",
-      "title": "Custom Web Application",
-      "subTitle": "Web Development, Custom Solutions",
-      "details": {
-        "title": "Tailored Web Application for Client Management",
-        "description": "Designed and developed a custom web application to manage client interactions, employing advanced SEO strategies and integrating various ad platforms to enhance visibility and engagement.",
-        "type": "Web Application",
-        "langages": "HTML, CSS, JS, React JS, Node.js",
-        "platform": "Custom Development",
-        "country": "UK",
-        "url": "www.example.com"
-      }
-    },
-    {
-      "thumbUrl": "/images/popup-project-7.jpg",
-      "title": "E-commerce Website Development",
-      "subTitle": "Web Design, App Design",
-      "details": {
-        "title": "High-Impact E-commerce Site for Startup",
-        "description": "Crafted a sleek, high-performance e-commerce website using HTML, CSS, and React JS. Implemented advanced SEO techniques and integrated Google Ads to drive targeted traffic and boost sales.",
-        "type": "Website",
-        "langages": "HTML, CSS, JS, React JS, Node.js",
-        "platform": "Custom Development",
-        "country": "UK",
-        "url": "www.example.com"
-      }
-    }
-  ]
-},
  "service": {
   "sectionHeading": {
     "miniTitle": "SERVICES",
