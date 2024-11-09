@@ -8,6 +8,7 @@ import Service from '../components/Service';
 import HomePagdData from '../data/HomePagdData.json';
 import Experience from '../components/Experience';
 import Contact from '../components/Contact';
+import WhatsAppButton from '../WhatAppButton';  
 
 export default function Home() {
   const {
@@ -20,6 +21,7 @@ export default function Home() {
     experience,
     testimonial,
     contact,
+    WhatsAppButton
   } = HomePagdData;
   return (
     <>
